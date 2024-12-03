@@ -2,18 +2,15 @@
 using namespace std;
 
 int main() {
-    // Declare two 3x3 matrices
     int matrix1[3][3], matrix2[3][3];
 
-    // Input elements for the first matrix
-    cout << "Enter elements for Matrix 1 (3x3):" << endl;
+cout << "Enter elements for Matrix 1 (3x3):" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             cout << "matrix1[" << i << "][" << j << "]: ";
             cin >> matrix1[i][j];
         }
     }
-// Input elements for the second matrix
     cout << "Enter elements for Matrix 2 (3x3):" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -21,8 +18,6 @@ int main() {
             cin >> matrix2[i][j];
         }
     }
-
-    // Display the first matrix
     cout << "\nMatrix 1:" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -30,8 +25,6 @@ int main() {
         }
         cout << endl;
     }
-
-    // Display the second matrix
     cout << "\nMatrix 2:" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
